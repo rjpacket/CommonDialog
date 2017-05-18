@@ -32,9 +32,34 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
+                android:text="顶部提示框"
+                android:gravity="center"
+                android:onClick="dialog00"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="底部提示框"
+                android:gravity="center"
+                android:onClick="dialog000"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
                 android:text="输入型的弹出框"
                 android:gravity="center"
                 android:onClick="dialog1"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="list型的弹出框"
+                android:gravity="center"
+                android:onClick="dialog2"
                 android:layout_marginTop="10dp"
                 />
         </LinearLayout>
